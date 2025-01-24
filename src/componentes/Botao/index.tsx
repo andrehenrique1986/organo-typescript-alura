@@ -4,7 +4,7 @@ import './Botao.css';
 
 
 interface BotaoProps {
-    children: ReactElement;
+    children: ReactElement | string;
 }
 
 const Botao = (props: BotaoProps) => {
@@ -13,4 +13,4 @@ const Botao = (props: BotaoProps) => {
     </button>)
 }
 
-export default Botao
+export default Botao;
